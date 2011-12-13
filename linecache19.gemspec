@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob("test/**/*")
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
+  s.extensions << "ext/trace_nums/extconf.rb"
 end
